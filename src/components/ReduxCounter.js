@@ -2,7 +2,7 @@ import React from 'react';
 import {connect}from "react-redux";
 
 
-class Counter extends React.Component {
+class ReduxCounter extends React.Component {
     increment = () => {
 
     };
@@ -35,4 +35,4 @@ function mapStateToProps(state) {
 }
 
 //Higher-order function
-export default connect(mapStateToProps)(Counter);
+export default connect(mapStateToProps)(ReduxCounter);
